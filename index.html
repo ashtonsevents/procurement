@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SFD Checker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header-wrapper">
+            <h1>SFD URL Generator</h1>
+            <img src="assets/logo.png" alt="Logo">
+        </div>
+        <p>Paste your codes below:</p>
+        <div>
+            <input type="radio" id="aah" name="option" value="AAH">
+            <label for="aah">AAH</label>
+        </div>
+        <div>
+            <input type="radio" id="aliance" name="option" value="Aliance">
+            <label for="aliance">Alliance Healthcare</label>
+        </div>
+        <textarea id="codes" placeholder="Insert codes here, one per line..."></textarea>
+        <div class="progress-bar" id="progress-bar">
+            <div class="progress" id="progress"></div>
+        </div>
+        <button id="generateLinks">Generate Links</button>
+        <button id="openLinks" onclick="openAllLinks()" disabled>Open All Links</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

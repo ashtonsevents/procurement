@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0C292E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #0D485B;
+    border: 1px solid #0AC1BC; /* Define border width, style, and color */
+    padding: 60px 100px; /* Adjust padding as needed */
+    color: white;
+    border-radius: 10px;
+    width: 300px;
+    text-align: left;
+    position: relative; /* Position relative to position header-wrapper absolutely */
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+    justify-content: space-between; /* Space out logo and heading */
+    position: absolute;
+    top: 10px; /* Adjust top position as needed */
+    left: 10px; /* Adjust left position as needed */
+    right: 10px; /* Adjust right position as needed */
+    margin-bottom: 20px; /* Space below the header */
+}
+
+.header-wrapper img {
+    width: 130px; /* Adjust the size of the logo */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.header-wrapper h1 {
+    font-size: 24px;
+    margin: 0; /* Remove default margin */
+    font-weight: bold;
+    flex: 1; /* Allow heading to take up remaining space */
+    text-align: left; /* Align heading to the left */
+}
+
+/* Remove padding on header-wrapper */
+.header-wrapper img,
+.header-wrapper h1 {
+    padding: 5px;
+}
+
+textarea {
+    width: 100%;
+    height: 400px;
+    margin: 30px 0;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+
+button {
+    background-color: #25bcb927;
+    color: white;
+    border: 1px solid #25bcb9;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #25bcb9;
+    color: white;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 50px;
+    margin: 10px 0;
+}
+
+.progress {
+    height: 20px; /* Increased height for better visibility */
+    background-color: #BED73D;
+    border-radius: 50px;
+    width: 0%;
+}
