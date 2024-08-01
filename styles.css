@@ -100,7 +100,7 @@ button:hover {
     align-items: center; /* Align items vertically centered */
     justify-content: space-between; /* Space out logo and heading */
     position: absolute;
-    top: 750px; /* Adjust top position as needed */
+    top: 815px; /* Adjust top position as needed */
     left: 15px; /* Adjust left position as needed */
     right: 10px; /* Adjust right position as needed */
     margin-bottom: 20px; /* Space below the header */
