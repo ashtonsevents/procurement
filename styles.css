@@ -75,7 +75,7 @@ button:hover {
 }
 
 .progress-bar {
-    width: 100%;
+    width: 105%;
     background-color: #ddd;
     border-radius: 50px;
     margin: 10px 0;
@@ -119,4 +119,8 @@ button:hover {
 
 .warning h1 {
     padding: 5px;
+}
+
+.bottomhalf {
+    text-align: center;
 }
