@@ -17,6 +17,7 @@ body {
     width: 300px;
     text-align: left;
     position: relative; /* Position relative to position header-wrapper absolutely */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow for a nice effect */
 }
 
 .header-wrapper {
@@ -123,4 +124,20 @@ button:hover {
 
 .bottomhalf {
     text-align: center;
+}
+
+.popup {
+    position: fixed; /* Use fixed positioning to place it relative to the viewport */
+    bottom: 20px; /* Adjust distance from the bottom */
+    right: 20px; /* Adjust distance from the right */
+    background-color: #fff; /* Background color for better visibility */
+    padding: 10px; /* Padding for better spacing */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for a nice effect */
+}
+
+.popup img {
+    max-height: 200px;
+    display: block; /* Ensures the image is a block element */
+    margin: 0 auto; /* Center the image horizontally */
 }
