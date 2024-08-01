@@ -89,8 +89,8 @@ function openAllLinks() {
             currentIndex++;
             const progress = (currentIndex / totalLinks) * 100;
             updateProgressBar(progress);
-            // Increase the delay to reduce the chance of pop-up blockers
-            setTimeout(openNextLink, 100); // 0.1 second delay
+            // Open the next link immediately
+            openNextLink(); // Recursive call to open the next link immediately
         } else {
             console.log("All links have been opened.");
         }
