@@ -130,14 +130,22 @@ button:hover {
     position: fixed; /* Use fixed positioning to place it relative to the viewport */
     bottom: 20px; /* Adjust distance from the bottom */
     right: 20px; /* Adjust distance from the right */
-    background-color: #fff; /* Background color for better visibility */
-    padding: 10px; /* Padding for better spacing */
-    border-radius: 5px; /* Rounded corners */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for a nice effect */
+    
 }
 
 .popup img {
     max-height: 200px;
     display: block; /* Ensures the image is a block element */
     margin: 0 auto; /* Center the image horizontally */
+    background-color: #fff; /* Background color for better visibility */
+    padding: 10px; /* Padding for better spacing */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for a nice effect */
+}
+
+.popup h2 {
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    font-weight: bold;
 }
