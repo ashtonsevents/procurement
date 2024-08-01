@@ -87,3 +87,36 @@ button:hover {
     border-radius: 50px;
     width: 0%;
 }
+
+.container p{
+    padding: 5px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.warning {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+    justify-content: space-between; /* Space out logo and heading */
+    position: absolute;
+    top: 750px; /* Adjust top position as needed */
+    left: 15px; /* Adjust left position as needed */
+    right: 10px; /* Adjust right position as needed */
+    margin-bottom: 20px; /* Space below the header */
+}
+
+
+.warning h2 {
+    font-size: 12px;
+    margin: 0; /* Remove default margin */
+    font-weight: lighter;
+    flex: 1; /* Allow heading to take up remaining space */
+    text-align: left; /* Align heading to the left */
+}
+
+/* Remove padding on header-wrapper */
+
+.warning h1 {
+    padding: 5px;
+}
